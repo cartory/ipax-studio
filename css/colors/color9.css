@@ -1,0 +1,27 @@
+.btn-primary,
+.btn-default:hover,
+.modal-profile .details .position,
+header.navbar .navbar-toggle .icon-bar,
+#toggle-navbar,
+.pricing-table .pricing-title,
+.progress-bar,
+.progress:hover .progress-bar,
+#portfolio-filter li.active,#about .about-block:hover .circle { background: #35bcd2; }
+
+#portfolio-list li:hover .more:hover:before,.team-nav li.active,.pane a.more,.googlemap,.postlist .thumb,.postcontent h5 a:hover { color: #35bcd2; border-color: #35bcd2; }
+.arrow-down { border-top-color: #35bcd2; }
+header.navbar .navbar-nav li.active a {
+  box-shadow:0 0 92px 1px rgba(53,188,210, 0.4);
+  -webkit-box-shadow:0 0 92px 1px rgba(53,188,210, 0.4);
+  -moz-box-shadow:0 0 92px 1px rgba(53,188,210, 0.4);
+  -o-box-shadow:0 0 92px 1px rgba(53,188,210, 0.4);}
+a,.pane h3,.getNum,.processLead-list li a i,#issues li h1,.service:hover .service-title .title,#close-pricing i, #close-pricing2 i, #close-pricing3 i{color:#35bcd2;}
+.messageHeader span.purple,#home .go,.date,.quotepost{background:rgba(53,188,210, 0.9);background-image: url("../../images/05_bgpattern.png");}
+#about .about-block .circle{background-color:rgba(53,188,210, 0.7);border:30px solid rgba(255,255,255, 0.8)}
+
+#services,.bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active:after,#contactform .btn-default,.pricing-col2,.pricingtable .btn:hover{background:#35bcd2;}
+.bg-discovery,.bg-planning,.bg-design,.bg-develop,.bg-launch,.pricing-col1{background:none repeat scroll 0 0 #aadae5;}
+#portfolio-list li .portfolio-item-content{background:url("../../images/05_bgpattern.png") repeat scroll 0 0 rgba(53,188,210, 0.9);}
+#testimonials .background-overlay{background-color:rgba(53,188,210, 0.9)}
+.mail-message [contenteditable="true"]{border-bottom:6px dotted #35bcd2;color:#35bcd2}
+.btn-footer{background:#35bcd2;border:1px solid #35bcd2}
