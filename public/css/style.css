@@ -1,4 +1,5 @@
-/* General Styles*/
+/* General Styles
+-------------------------*/
 html {
   font-size: 62.5%;
 }
@@ -170,7 +171,7 @@ section > .container,
   padding-right: 0;
 }
 /* Elements
-  -------------------------*/
+-------------------------*/
 .btn-light {
   display: inline-block;
   position: relative;
@@ -965,7 +966,7 @@ a.close:hover {
   color: #fff;
 }
 /* Parallax
-  -------------------------*/
+-------------------------*/
 .parallax {
   padding: 0;
   font-size: 2em;
@@ -1079,7 +1080,7 @@ a.close:hover {
   transition: all 0.3s ease 0s;
 }
 /* Navigation
-  -------------------------*/
+-------------------------*/
 
 header.navbar {
   opacity: 0;
@@ -1120,19 +1121,7 @@ header.navbar {
 header.navbar:hover {
   background-image: none;
 }
-
 @keyframes A {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 0 500px;
-  }
-  100% {
-    background-position: 0 1000px;
-  }
-}
-@-o-keyframes A {
   0% {
     background-position: 0 0;
   }
@@ -1291,15 +1280,116 @@ header.navbar .navbar-nav a:hover {
     height: 0 !important;
   }
 }
+/* Footer
+-------------------------*/
+#footer {
+  width: 100%;
+  font-size: 0.9em;
+  color: #999;
+  text-align: center;
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #000;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#footer .row {
+  margin-bottom: 0px;
+}
+.footer-text {
+  margin: 3px 0;
+}
+.footer-text {
+  margin: 8px auto;
+}
+.footer-link {
+  display: inline-block;
+  margin: 0 25px 0 0;
+}
+.footer-link {
+  color: white;
+  font-weight: 400;
+}
+.footer-link,
+.footer-p {
+  text-align: left;
+}
+.footer-link,
+.footer-p {
+  padding: 5px 0;
+  text-align: center;
+}
+.footer-cta {
+  margin: 8px 0;
+  position: relative;
+}
+.footer-cta-p {
+  display: inline-block;
+}
+.footer-p {
+  margin: 0;
+  color: #cccccc;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+.footer-link,
+.footer-p {
+  text-align: left;
+}
+.btn-footer {
+  background: #73e0b8;
+  border: 1px solid #73e0b8;
+  float: right;
+  margin: 0 0 0 20px;
+  color: #050f1e !important;
+}
+.btn-footer:hover {
+  background: #fff !important;
+  border: 1px solid #fff;
+}
+.footer-cta-a {
+  display: inline-block;
+}
+#footer a {
+  color: #cccccc;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+#footer a:hover {
+}
+#footer .container {
+  padding: 30px 0;
+}
+#footer .copyright {
+  float: left;
+  line-height: 48px;
+}
+@media only screen and (max-width: 479px) {
+  .btn-footer {
+    float: none;
+  }
+}
+@media (max-width: 1000px) {
+  .btn-footer {
+    float: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .btn-footer {
+    float: none;
+  }
+}
 
 /* While loading the page..
-  -------------------------*/
+-------------------------*/
 .loading .animated {
-  transition: none !important;
-  -o-transition: none !important;
-  -ms-transition: none !important;
-  -moz-transition: none !important;
   -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
   -webkit-animation-delay: 60s !important;
   animation-delay: 60s !important;
 }
@@ -1322,7 +1412,7 @@ header.navbar .navbar-nav a:hover {
   margin: 0 auto;
 }
 /* Home
-  -------------------------*/
+-------------------------*/
 
 #home {
   height: 100%;
@@ -1765,7 +1855,7 @@ header.navbar .navbar-nav a:hover {
   text-shadow: inherit;
 }
 /* About
-  -------------------------*/
+-------------------------*/
 .picture {
   background: #fff;
 
@@ -1876,10 +1966,8 @@ header.navbar .navbar-nav a:hover {
   width: 80px;
 }
 #about div.go a {
-  user-select: none;
-  -moz-user-select: none;
-  box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -moz-user-select: none;
   background-color: #ffffff;
   border: 1px solid #eeeeee;
   -webkit-border-radius: 50%;
@@ -2214,7 +2302,6 @@ header.navbar .navbar-nav a:hover {
   color: #333;
 }
 .team-nav {
-  box-sizing: border-box;
   -moz-box-sizing: border-box;
   border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
@@ -2223,7 +2310,6 @@ header.navbar .navbar-nav a:hover {
   margin-bottom: 60px;
 }
 .team-nav li {
-  box-sizing: border-box;
   -moz-box-sizing: border-box;
   border-top: 5px solid rgba(0, 0, 0, 0);
   border-bottom: 5px solid rgba(0, 0, 0, 0);
@@ -2242,7 +2328,6 @@ header.navbar .navbar-nav a:hover {
   }
 }
 .team-nav li a {
-  box-sizing: border-box;
   -moz-box-sizing: border-box;
   display: block;
   margin: 0 auto;
@@ -2368,7 +2453,7 @@ header.navbar .navbar-nav a:hover {
   background-color: rgba(115, 224, 184, 0.9);
 }
 /* Clients
-  -------------------------*/
+-------------------------*/
 #clients {
   padding: 0 0 50px;
   text-align: center;
@@ -2400,7 +2485,7 @@ header.navbar .navbar-nav a:hover {
   -webkit-filter: grayscale(0%);
 }
 /* Services
-  -------------------------*/
+-------------------------*/
 #services {
   background: #73e0b8;
   position: relative;
@@ -2798,7 +2883,7 @@ header.navbar .navbar-nav a:hover {
   }
 }
 /* Portfolio
-  -------------------------*/
+-------------------------*/
 #portfolio img {
   max-width: 100%;
 }
@@ -2965,7 +3050,6 @@ header.navbar .navbar-nav a:hover {
   animation: 20s linear 0s normal none infinite A;
   -webkit-animation: 20s linear 0s normal none infinite A;
   -moz-animation: 20s linear 0s normal none infinite A;
-  animation-name: A;
   -o-animation-name: A;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -3054,7 +3138,7 @@ header.navbar .navbar-nav a:hover {
   transform: rotate(90deg);
 }
 /* Projects
-  -------------------------*/
+-------------------------*/
 #projects {
   position: fixed;
   top: 0;
@@ -3233,7 +3317,7 @@ header.navbar .navbar-nav a:hover {
   line-height: 100px;
 }
 /* Quote
-  -------------------------*/
+-------------------------*/
 #testimonials {
   background-image: url("../images/04-bannerBg.jpg");
 }
@@ -3258,7 +3342,7 @@ blockquote cite {
   font-weight: 700;
 }
 /* Contact
-  -------------------------*/
+-------------------------*/
 .mail-message {
   font-size: 24px;
   font-style: normal;
@@ -3328,7 +3412,8 @@ blockquote cite {
   background: #000;
   padding: 20px 40px;
 }
-
+.sendmsg {
+}
 #contactform {
   position: relative;
   background: #fff;
@@ -3369,7 +3454,7 @@ blockquote cite {
   padding: 12px;
 }
 /* Slideshow
-  -------------------------*/
+-------------------------*/
 
 .bx-wrapper .bx-controls {
   font-size: 1rem;
@@ -3611,7 +3696,7 @@ blockquote cite {
   text-align: center;
 }
 /* DEMO ONLY
-  -------------------------*/
+-------------------------*/
 #loadbox img {
   display: none;
   max-width: 100px;
@@ -3661,8 +3746,8 @@ blockquote cite {
   animation-delay: 1.5s;
 }
 /*==================================
-          THEE STYLE SWITHER
-  ==================================*/
+        THEE STYLE SWITHER
+==================================*/
 
 #style-switcher div h3 {
   color: #1d1d1d;
