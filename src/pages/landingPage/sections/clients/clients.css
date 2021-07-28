@@ -1,0 +1,12 @@
+#clients {
+  padding: 5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.client-img {
+  border-radius: 50%;
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: cover;
+}
