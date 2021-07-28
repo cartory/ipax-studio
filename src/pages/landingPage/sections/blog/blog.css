@@ -1,0 +1,14 @@
+/* NOT STYLES YET */
+
+#dates *, #dates {
+	transition: all .6s ease;
+	overflow: hidden;
+}
+
+#dates * a{
+	cursor: pointer;
+}
+
+#issues * {
+	transition: all 1s ease;
+}
