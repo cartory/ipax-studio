@@ -1,14 +1,20 @@
 /* NOT STYLES YET */
 
-#dates *, #dates {
-	transition: all .6s ease;
-	overflow: hidden;
+#dates *,
+#dates {
+  transition: all 0.6s ease;
+  overflow: visible;
 }
 
-#dates * a{
-	cursor: pointer;
+#dates * a {
+  cursor: pointer;
 }
 
 #issues * {
-	transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.event-img {
+  height: 300px;
+  object-fit: fill;
 }
