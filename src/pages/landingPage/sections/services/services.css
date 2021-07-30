@@ -1,0 +1,23 @@
+/* NOT STYLES YET */
+
+.services {
+  background: transparent;
+}
+
+div > h1 {
+  color: white;
+  padding: 3%;
+  font-size:280%;
+  text-align: center !important;
+  font-family: "Ubuntu", sans-serif;
+  text-shadow: 0 0 3px lightgray;
+}
+
+.grid {
+  gap: 5%;
+  padding: 5%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
