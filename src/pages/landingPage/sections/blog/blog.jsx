@@ -6,7 +6,7 @@ import events from './events.json'
 const Blog = ({
     title = "We've got history",
     subtitle = "Get to know us a little bit better",
-    textCenter = "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+    textContent = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 }) => {
     const datesRef = useRef(document.getElementById('dates'))
     const issueRef = useRef(document.getElementById('issues'))
@@ -42,12 +42,15 @@ const Blog = ({
                             <p className="subtitle">{subtitle}<br /></p>
                         </div>
 
-                        <p className="text-center">{textCenter}</p>
+                        <p className="text-center" style={{ paddingBottom: 15 }}>
+                            <strong>{textContent}</strong>
+                        </p>
                         <h1 className="calender"><i className="fa fa-calendar-o"></i></h1>
                     </div>
                     <div className="col-md-8">
                         <div id="timeline">
                             <ul id="dates" ref={datesRef}>
+                                {() => { return 'asdf' }}
                                 {events.map(({ year }, index) => <li key={index}><a>{year}</a></li>)}
                             </ul>
                             <ul id="issues" ref={issueRef}>
