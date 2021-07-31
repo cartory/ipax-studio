@@ -50,7 +50,6 @@ const Blog = ({
                     <div className="col-md-8">
                         <div id="timeline">
                             <ul id="dates" ref={datesRef}>
-                                {() => { return 'asdf' }}
                                 {events.map(({ year }, index) => <li key={index}><a>{year}</a></li>)}
                             </ul>
                             <ul id="issues" ref={issueRef}>
