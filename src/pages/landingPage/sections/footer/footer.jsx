@@ -22,8 +22,8 @@ const Footer = ({
                 <div className="row">
                     <div className="col-md-4">
                         <div className="footer-text clearfix">
-                            <a className="footer-link" href={`mailto:${businessEmail}`}>{businessEmail}</a>
-                            <a className="footer-link" href={`tel:+591${phoneNumber}`}>🇧🇴 {phoneNumber}</a>
+                            <a className="footer-link shadow-text" href={`mailto:${businessEmail}`}>{businessEmail}</a>
+                            <a className="footer-link shadow-text" href={`tel:+591${phoneNumber}`}>🇧🇴 {phoneNumber}</a>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -35,9 +35,8 @@ const Footer = ({
                     </div>
                     <div className="col-md-4">
                         <div className="footer-cta clearfix">
-                            <p className="footer-p footer-cta-p">Want to work with us?</p>
-                            <a className="btn btn-default btn-footer  footer-cta-a" href={`mailto:${businessEmail}`}>Get
-                                Started</a>
+                            <p className="footer-p footer-cta-p shadow-text">Quieres Trabajar con nosotros?</p>
+                            <a className="btn btn-default btn-footer footer-cta-a shadow-text-green" href={`mailto:${businessEmail}`}>Comencemos</a>
                         </div>
                     </div>
                 </div>
