@@ -1,12 +1,17 @@
 #clients {
   padding: 5%;
+  padding-top: 0;
   padding-left: 0;
   padding-right: 0;
 }
 
 .client-img {
-  border-radius: 50%;
-  width: 140px !important;
-  height: 140px !important;
   object-fit: cover;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  background: white;
+  object-fit: scale-down;
+  box-shadow: 0 0 10px 1px white;
+  transform: scale(0.9);
 }

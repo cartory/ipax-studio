@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import './clients.css'
 import 'react-multi-carousel/lib/styles.css'
 
@@ -25,17 +26,17 @@ const responsive = {
 };
 
 const Clients = ({
-    title = "Clients that trust us ",
-    subtitle = "Want to join the round?",
+    title = "Nuestros Clientes",
+    subtitle = "Completamente satisfechos",
 }) => {
-
-
     return (
-        <div id="clients" className="section">
+        <div id="clients" className="section" style={{ background: 'transparent' }}>
             <div>
                 <div className="section-heading mini text-center" data-animated="fadeInDown">
-                    <h4 className="title"><span>{title}</span></h4>
-                    <p className="subtitle">{` ${subtitle} `}<a href="#contact">Get in touch</a></p>
+                    <h4 className="title shadow-text">
+                        <span style={{ background: 'transparent', color: 'white' }}>{title}</span>
+                    </h4>
+                    <p className="subtitle shadow-text">{` ${subtitle} `}</p>
                 </div>
 
                 <Carousel
@@ -56,12 +57,12 @@ const Clients = ({
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
                 >
-                    {clients.map(({ name, logo }, key) => {
-                        return <img className="client-img" key={key} title={name} src={logo} alt="#" />
+                    {clients.map(({ logo, ref, title }, key) => {
+                        return < a key={key} href={ref} target="_blank" ><img className="client-img" title={title} src={logo} alt="#" /></a>
                     })}
                 </Carousel>
             </div>
-        </div>
+        </div >
     )
 }
 
