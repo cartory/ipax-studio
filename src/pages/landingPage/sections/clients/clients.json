@@ -1,22 +1,27 @@
 [
   {
-    "name": "bagó",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdq58KJgqWrVv4XvZVtH-aUshUx7WasGP7L4pzX3RDkMO98wfGB-B06P68LJSjqp_YlFc&usqp=CAU"
+    "title": "aulaNet",
+    "ref": "https://www.facebook.com/aulanet.bo/",
+    "logo": "https://cdn.discordapp.com/attachments/710939640693129236/872145014082396200/aulanet.jpeg"
   },
   {
-    "name": "bagó",
-    "logo": "https://cdn.discordapp.com/attachments/637038014203166773/865330803466305576/5f1b413999c4ef88b569409f8bdfc01a.jpg"
+    "title": "Ministerio de Educación",
+    "ref": "https://www.facebook.com/MinEducaBol/",
+    "logo": "https://cdn.discordapp.com/attachments/710939640693129236/872141356775112714/minedu.jpg"
   },
   {
-    "name": "bagó",
-    "logo": "https://i.pinimg.com/originals/bf/d2/97/bfd2972d287d86511b2cd50a48becfe7.jpg"
+    "title": "Bagó",
+    "ref": "http://www.bago.com.bo",
+    "logo": "https://www.bagochile.cl/wp-content/uploads/2019/04/sello6.png"
   },
   {
-    "name": "bagó",
-    "logo": "https://cdn.discordapp.com/attachments/637038014203166773/865330803466305576/5f1b413999c4ef88b569409f8bdfc01a.jpg"
+    "title": "Global Rescat",
+    "ref": "http://www.globalrescat.com",
+    "logo": "https://cdn.discordapp.com/attachments/710939640693129236/872139017565655070/logo_web.png"
   },
   {
-    "name": "bagó",
-    "logo": "https://otakukart.com/wp-content/uploads/2020/04/tmg-facebook_social-1200x900.jpg"
+    "ref": "https://www.uagrm.edu.bo",
+    "title": "Universidad Autónoma Gabriel René Moreno",
+    "logo": "https://cdn.discordapp.com/attachments/710939640693129236/872146137023406200/uagrm-escudo.jpg"
   }
 ]
