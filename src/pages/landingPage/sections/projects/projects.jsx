@@ -5,7 +5,10 @@ import achievements from './achievements.json'
 
 import { useRef, useEffect } from 'react'
 
-const Projects = () => {
+const Projects = ({
+	title = "Nuestros Proyectos",
+	subtitle = "Una fina Selección de los proyectos realizados 🔖"
+}) => {
 	const tabRef = useRef(document.getElementById('portfolio-filter'))
 	useEffect(() => {
 		tabRef.current.childNodes.forEach((child, _, siblings) => {
@@ -20,8 +23,8 @@ const Projects = () => {
 		<div id="portfolio" className="section">
 			{/* <!-- heading --> */}
 			<div className="container section-heading text-center" data-animated="fadeInDown">
-				<h2 className="title"><span>Our Portfolio</span></h2>
-				<p className="subtitle">A fine selection of some projects we worked on.</p>
+				<h2 className="title shadow-text"><span style={{ background: 'none', color: 'white' }}>{title}</span></h2>
+				<p className="subtitle shadow-text">{subtitle}</p>
 			</div>
 			{/* <!-- end heading --> */}
 			{/* <!-- Filter --> */}
@@ -34,10 +37,7 @@ const Projects = () => {
 			{/* <!-- end filter --> */}
 			<div className="thumbnails">
 				{achievements.map((achievement, index) => {
-					if (index % 2 === 0) {
-						return null
-					}
-
+					if (index % 2 === 0) return null
 					return <a key={index} href="#"><img src={achievement.src} alt="#" loading="lazy" /></a>
 				})}
 			</div>
