@@ -4,13 +4,24 @@ import Clients from './sections/clients/clients.jsx'
 import Projects from './sections/projects/projects'
 import Services from './sections/services/services.jsx'
 
+import Stars from '../../components/stars/stars'
+
+const sections = [
+    <Services />,
+    <Projects />,
+    <Blog />,
+    <Clients />,
+    <Footer />
+]
+
 const LandingPage = () => {
     return <>
-        <Services />
-        <Projects />
-        <Blog />
-        <Clients />
-        <Footer />
+        {sections.map((section, index) => {
+            return <>
+                {index % 2 === 0 ? <Stars /> : null}
+                {section}
+            </>
+        })}
     </>
 }
 
