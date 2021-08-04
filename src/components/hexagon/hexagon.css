@@ -1,10 +1,10 @@
 .hexagon {
   position: relative;
-  background: #000;
+  background: #fff;
   width: 100px;
   height: calc(100px * 1.73205080757);
   border-radius: 1em/ 0.5em;
-  box-shadow: 0 0 20px 0.1px #000;
+  box-shadow: 0 0 20px 0.1px #fff;
 }
 
 .hexagon:hover {
@@ -27,7 +27,7 @@
   border-radius: 50%;
   position: absolute;
   object-fit: scale-down;
-  z-index: 2;
+  z-index: 5;
 }
 
 .hexagon::before,
@@ -39,14 +39,17 @@
   background: inherit;
   box-shadow: inherit;
   border-radius: inherit;
+  left: 0;
 }
 
 .hexagon::before {
+  /* background: yellow; */
   transform: rotateZ(60deg);
   z-index: 1;
 }
 
 .hexagon::after {
+  /* background: green; */
   transform: rotateZ(-60deg);
   z-index: 1;
 }
