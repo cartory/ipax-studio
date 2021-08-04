@@ -4,9 +4,9 @@ import { useRef, useEffect } from 'react';
 import events from './events.json'
 
 const Blog = ({
-    title = "We've got history",
-    subtitle = "Get to know us a little bit better",
-    textContent = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    title = "Nuestra Historia",
+    subtitle = "Hagamos Historia Juntos",
+    textContent = "Trabajamos todos los días para poder llegar a todos con mucho cariño 😊❤️"
 }) => {
     const datesRef = useRef(document.getElementById('dates'))
     const issueRef = useRef(document.getElementById('issues'))
@@ -38,27 +38,27 @@ const Blog = ({
                     {/* <!-- Timeline heading --> */}
                     <div className="col-md-4 history">
                         <div className="section-heading text-center">
-                            <h1 className="title"><span>{title}</span></h1>
-                            <p className="subtitle">{subtitle}<br /></p>
+                            <h1 className="title shadow-text"><span>{title}</span></h1>
+                            <p className="subtitle shadow-text">{subtitle}<br /></p>
                         </div>
-
-                        <p className="text-center" style={{ paddingBottom: 15 }}>
+                        {/*  */}
+                        {/* <p className="text-center" style={{ paddingBottom: 15 }}>
                             <strong>{textContent}</strong>
                         </p>
-                        <h1 className="calender"><i className="fa fa-calendar-o"></i></h1>
+                        <h1 className="calender"><i className="fa fa-calendar-o"></i></h1> */}
                     </div>
                     <div className="col-md-8">
                         <div id="timeline">
                             <ul id="dates" ref={datesRef}>
-                                {events.map(({ year }, index) => <li key={index}><a>{year}</a></li>)}
+                                {events.map(({ date }, index) => <li key={index}><a className="shadow-text-green">{date}</a></li>)}
                             </ul>
                             <ul id="issues" ref={issueRef}>
                                 {events.map((event, index) => {
                                     return (
-                                        <li id={event.year} key={index}>
+                                        <li id={event.date} key={index}>
                                             <img className="event-img" src={event.img} alt="#" />
-                                            <h1>{event.year}</h1>
-                                            <p><strong>{event.content}</strong></p>
+                                            <h1 className="shadow-text-green square">{event.title}</h1>
+                                            <p className="shadow-tex square-textt" style={{ color: 'white', paddingTop: 0 }}>{event.content}</p>
                                         </li>
                                     )
                                 })}

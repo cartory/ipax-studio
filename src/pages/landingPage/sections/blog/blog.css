@@ -16,5 +16,15 @@
 
 .event-img {
   height: 300px;
-  object-fit: fill;
+  object-fit: cover;
 }
+
+.square {
+  transform: scale(0.9);
+}
+
+/* #issues * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 !important;
+  text-justify: inter-ideograph;
+} */
