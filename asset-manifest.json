@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ipax-studio/static/css/main.1852fde3.chunk.css",
-    "main.js": "/ipax-studio/static/js/main.c9e6a764.chunk.js",
-    "main.js.map": "/ipax-studio/static/js/main.c9e6a764.chunk.js.map",
-    "runtime-main.js": "/ipax-studio/static/js/runtime-main.fdf3bfd2.js",
-    "runtime-main.js.map": "/ipax-studio/static/js/runtime-main.fdf3bfd2.js.map",
+    "main.css": "/ipax-studio/static/css/main.7cdba56e.chunk.css",
+    "main.js": "/ipax-studio/static/js/main.d9af2f5f.chunk.js",
+    "main.js.map": "/ipax-studio/static/js/main.d9af2f5f.chunk.js.map",
+    "runtime-main.js": "/ipax-studio/static/js/runtime-main.1704550f.js",
+    "runtime-main.js.map": "/ipax-studio/static/js/runtime-main.1704550f.js.map",
     "static/css/2.377a41a6.chunk.css": "/ipax-studio/static/css/2.377a41a6.chunk.css",
-    "static/js/2.f629de76.chunk.js": "/ipax-studio/static/js/2.f629de76.chunk.js",
-    "static/js/2.f629de76.chunk.js.map": "/ipax-studio/static/js/2.f629de76.chunk.js.map",
-    "static/js/3.891d71f9.chunk.js": "/ipax-studio/static/js/3.891d71f9.chunk.js",
-    "static/js/3.891d71f9.chunk.js.map": "/ipax-studio/static/js/3.891d71f9.chunk.js.map",
+    "static/js/2.83146fe7.chunk.js": "/ipax-studio/static/js/2.83146fe7.chunk.js",
+    "static/js/2.83146fe7.chunk.js.map": "/ipax-studio/static/js/2.83146fe7.chunk.js.map",
+    "static/js/3.11ed8b17.chunk.js": "/ipax-studio/static/js/3.11ed8b17.chunk.js",
+    "static/js/3.11ed8b17.chunk.js.map": "/ipax-studio/static/js/3.11ed8b17.chunk.js.map",
     "index.html": "/ipax-studio/index.html",
     "static/css/2.377a41a6.chunk.css.map": "/ipax-studio/static/css/2.377a41a6.chunk.css.map",
-    "static/css/main.1852fde3.chunk.css.map": "/ipax-studio/static/css/main.1852fde3.chunk.css.map",
-    "static/js/2.f629de76.chunk.js.LICENSE.txt": "/ipax-studio/static/js/2.f629de76.chunk.js.LICENSE.txt",
+    "static/css/main.7cdba56e.chunk.css.map": "/ipax-studio/static/css/main.7cdba56e.chunk.css.map",
+    "static/js/2.83146fe7.chunk.js.LICENSE.txt": "/ipax-studio/static/js/2.83146fe7.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/ipax-studio/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.fdf3bfd2.js",
+    "static/js/runtime-main.1704550f.js",
     "static/css/2.377a41a6.chunk.css",
-    "static/js/2.f629de76.chunk.js",
-    "static/css/main.1852fde3.chunk.css",
-    "static/js/main.c9e6a764.chunk.js"
+    "static/js/2.83146fe7.chunk.js",
+    "static/css/main.7cdba56e.chunk.css",
+    "static/js/main.d9af2f5f.chunk.js"
   ]
 }
