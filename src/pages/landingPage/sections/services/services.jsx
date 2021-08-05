@@ -11,7 +11,7 @@ const HexagonRow = ({ items = [] }) => {
             {items.map((item, index) => {
                 return (
                     <div key={index} className="col-sm-4 about-block">
-                        <Hexagon icon="fa fa-lightbulb-o" side={110} />
+                        <Hexagon icon={item.svg} side={110} />
                         <header>
                             <h3><a href="#">{item.title}</a></h3>
                         </header>
