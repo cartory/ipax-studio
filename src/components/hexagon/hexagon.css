@@ -1,7 +1,7 @@
 .hexagon {
+  width: 100px;
   position: relative;
   background: #fff;
-  width: 100px;
   height: calc(100px * 1.73205080757);
   border-radius: 1em/ 0.5em;
   box-shadow: 0 0 20px 0.1px #fff;
@@ -18,7 +18,6 @@
   bottom: 7%;
   z-index: 3;
   font-weight: 500;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hexagon > img {
@@ -32,6 +31,7 @@
 
 .hexagon::before,
 .hexagon::after {
+  left: 0;
   content: "";
   position: absolute;
   width: inherit;
@@ -39,19 +39,18 @@
   background: inherit;
   box-shadow: inherit;
   border-radius: inherit;
-  left: 0;
 }
 
 .hexagon::before {
   /* background: yellow; */
-  transform: rotateZ(60deg);
   z-index: 1;
+  transform: rotateZ(60deg);
 }
 
 .hexagon::after {
   /* background: green; */
-  transform: rotateZ(-60deg);
   z-index: 1;
+  transform: rotateZ(-60deg);
 }
 
 @keyframes shake {

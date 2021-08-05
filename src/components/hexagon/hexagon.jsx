@@ -8,9 +8,15 @@ const Hexagon = ({ side = 100, icon }) => {
         <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div
                 className="hexagon"
-                style={{ width: side, height: Math.sqrt(3) * side }}
+                style={{
+                    width: side, height: Math.sqrt(3) * side,
+                    alignItems: 'center',
+                    display: 'flex', justifyContent: 'center',
+                }}
             >
-                <i className={icon}></i>
+                <img src={require(`../../assets/${icon}.svg`).default} alt="#" style={{
+                    transform: 'scale(5) translateY(-5.5%)'
+                }} />
             </div>
         </div>
     )
