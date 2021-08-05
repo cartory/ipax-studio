@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/ipax-studio/static/css/main.7cdba56e.chunk.css",
-    "main.js": "/ipax-studio/static/js/main.d9af2f5f.chunk.js",
-    "main.js.map": "/ipax-studio/static/js/main.d9af2f5f.chunk.js.map",
-    "runtime-main.js": "/ipax-studio/static/js/runtime-main.1704550f.js",
-    "runtime-main.js.map": "/ipax-studio/static/js/runtime-main.1704550f.js.map",
+    "main.css": "/ipax-studio/static/css/main.68f9a3bc.chunk.css",
+    "main.js": "/ipax-studio/static/js/main.28dc7fa7.chunk.js",
+    "main.js.map": "/ipax-studio/static/js/main.28dc7fa7.chunk.js.map",
+    "runtime-main.js": "/ipax-studio/static/js/runtime-main.fd2eaf1b.js",
+    "runtime-main.js.map": "/ipax-studio/static/js/runtime-main.fd2eaf1b.js.map",
     "static/css/2.377a41a6.chunk.css": "/ipax-studio/static/css/2.377a41a6.chunk.css",
-    "static/js/2.83146fe7.chunk.js": "/ipax-studio/static/js/2.83146fe7.chunk.js",
-    "static/js/2.83146fe7.chunk.js.map": "/ipax-studio/static/js/2.83146fe7.chunk.js.map",
-    "static/js/3.11ed8b17.chunk.js": "/ipax-studio/static/js/3.11ed8b17.chunk.js",
-    "static/js/3.11ed8b17.chunk.js.map": "/ipax-studio/static/js/3.11ed8b17.chunk.js.map",
+    "static/js/2.c7bfc315.chunk.js": "/ipax-studio/static/js/2.c7bfc315.chunk.js",
+    "static/js/2.c7bfc315.chunk.js.map": "/ipax-studio/static/js/2.c7bfc315.chunk.js.map",
+    "static/js/3.2c39376c.chunk.js": "/ipax-studio/static/js/3.2c39376c.chunk.js",
+    "static/js/3.2c39376c.chunk.js.map": "/ipax-studio/static/js/3.2c39376c.chunk.js.map",
     "index.html": "/ipax-studio/index.html",
     "static/css/2.377a41a6.chunk.css.map": "/ipax-studio/static/css/2.377a41a6.chunk.css.map",
-    "static/css/main.7cdba56e.chunk.css.map": "/ipax-studio/static/css/main.7cdba56e.chunk.css.map",
-    "static/js/2.83146fe7.chunk.js.LICENSE.txt": "/ipax-studio/static/js/2.83146fe7.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/ipax-studio/static/media/revicons.e8746a62.woff"
+    "static/css/main.68f9a3bc.chunk.css.map": "/ipax-studio/static/css/main.68f9a3bc.chunk.css.map",
+    "static/js/2.c7bfc315.chunk.js.LICENSE.txt": "/ipax-studio/static/js/2.c7bfc315.chunk.js.LICENSE.txt",
+    "static/media/disenio_grafico.svg": "/ipax-studio/static/media/disenio_grafico.74756dcd.svg",
+    "static/media/modelado3d.svg": "/ipax-studio/static/media/modelado3d.61b87bc3.svg",
+    "static/media/multimedia.svg": "/ipax-studio/static/media/multimedia.56eb91f3.svg",
+    "static/media/paseo_virtual.svg": "/ipax-studio/static/media/paseo_virtual.406a9097.svg",
+    "static/media/realidad_aumentada.svg": "/ipax-studio/static/media/realidad_aumentada.f4aab590.svg",
+    "static/media/styles.css": "/ipax-studio/static/media/revicons.e8746a62.woff",
+    "static/media/visualizacion360.svg": "/ipax-studio/static/media/visualizacion360.12318ed0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1704550f.js",
+    "static/js/runtime-main.fd2eaf1b.js",
     "static/css/2.377a41a6.chunk.css",
-    "static/js/2.83146fe7.chunk.js",
-    "static/css/main.7cdba56e.chunk.css",
-    "static/js/main.d9af2f5f.chunk.js"
+    "static/js/2.c7bfc315.chunk.js",
+    "static/css/main.68f9a3bc.chunk.css",
+    "static/js/main.28dc7fa7.chunk.js"
   ]
 }
