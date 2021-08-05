@@ -17,10 +17,12 @@ const sections = [
 const LandingPage = () => {
     return <>
         {sections.map((section, index) => {
-            return <>
-                {index % 2 === 0 ? <Stars /> : null}
-                {section}
-            </>
+            return (
+                <div key={index}>
+                    {index % 2 === 0 ? <Stars /> : null}
+                    {section}
+                </div>
+            )
         })}
     </>
 }
