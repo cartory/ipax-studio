@@ -29,10 +29,10 @@ const Projects = ({
 			{/* <!-- end heading --> */}
 			{/* <!-- Filter --> */}
 			<ul id="portfolio-filter" className="list-inline" ref={tabRef}>
-				<li className="active"><a href="#" data-filter="*">All</a></li>
-				<li><a href="#" data-filter=".development">Web Dev</a></li>
-				<li><a href="#" data-filter=".design">Design</a></li>
-				<li><a href="#" data-filter=".marketing">Marketing</a></li>
+				<li className="active"><a data-filter="*">All</a></li>
+				<li><a data-filter=".development">Web Dev</a></li>
+				<li><a data-filter=".design">Design</a></li>
+				<li><a data-filter=".marketing">Marketing</a></li>
 			</ul>
 			{/* <!-- end filter --> */}
 			<div className="thumbnails">
