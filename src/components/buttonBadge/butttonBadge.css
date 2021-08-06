@@ -1,0 +1,14 @@
+.badge-link {
+  margin-top: 15px;
+  transition: transform 0.13s ease;
+}
+
+.badge-link:hover {
+  transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+}
+
+.badge-img {
+  height: 65px;
+}
