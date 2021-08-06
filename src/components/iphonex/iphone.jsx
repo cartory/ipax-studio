@@ -7,7 +7,7 @@ const IphoneX = ({ img, size = 1 }) => {
             className="iphone-x"
             style={{
                 transform: `scale(${size})`,
-                backgroundImage: `url(${img ?? require('./screen.png').default})`
+                backgroundImage: `url(${img ?? require('./ipax.jpeg').default})`
             }}
         >
             <i>speaker</i>
