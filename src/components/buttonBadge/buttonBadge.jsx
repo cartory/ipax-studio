@@ -5,13 +5,13 @@ import PropTypes from 'prop-types'
 
 const badge = {
 	android: {
-		imgSrc: './appstoreBadge.svg',
 		alt: 'Disponible en Google Play',
+		imgSrc: require('./playstoreBadge.svg'),
 		href: 'https://play.google.com/store/apps/details?id=com.iPAXStudio.iPAXAR',
 	},
 	ios: {
-		imgSrc: './playstoreBadge.svg',
 		alt: 'Disponible en Google Play',
+		imgSrc: require('./appstoreBadge.svg'),
 		href: 'https://apps.apple.com/bo/app/ipax-ar/id1565399959',
 	}
 }
@@ -26,14 +26,14 @@ const ButtonBadge = ({ platform }) => {
 			<img
 				className="badge-img"
 				alt={badge[platform].alt}
-				src={require(badge[platform].imgSrc).default}
+				src={badge[platform].imgSrc.default}
 			/>
 		</a>
 	);
 }
 
 ButtonBadge.propTypes = {
-	platform: PropTypes.oneOfType(['android', 'ios'])
+	platform: PropTypes.oneOf(['ios', 'android'])
 }
 
 export default ButtonBadge;
