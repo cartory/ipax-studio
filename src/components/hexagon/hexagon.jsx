@@ -14,9 +14,10 @@ const Hexagon = ({ side = 100, icon }) => {
                     display: 'flex', justifyContent: 'center',
                 }}
             >
-                <img src={require(`../../assets/${icon}.svg`).default} alt="#" style={{
-                    transform: 'scale(5) translateY(-5.5%)'
-                }} />
+                <img
+                    src={require(`../../assets/${icon}.svg`).default}
+                    alt="#"
+                    style={{ transform: 'scale(5) translateY(-5.5%)' }} />
             </div>
         </div>
     )
