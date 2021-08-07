@@ -18,7 +18,7 @@ const IphoneX = ({ img, size = 1 }) => {
 
 IphoneX.propTypes = {
     img: PropTypes.string,
-    size: PropTypes.number.isRequired
+    size: PropTypes.number
 }
 
 export default IphoneX
