@@ -22,6 +22,7 @@ const ButtonBadge = ({ platform }) => {
 			target="_blank"
 			className="badge-link"
 			href={badge[platform].href}
+			style={{ margin: 10 }}
 		>
 			<img
 				className="badge-img"

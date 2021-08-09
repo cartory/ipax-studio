@@ -1,1 +1,51 @@
 /* NOT STYLES YET */
+#home {
+  height: 100vh;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.info {
+  margin: 0 4%;
+  position: relative;
+}
+
+.info > * {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.info > h1 {
+  color: #029647;
+  font-size: 550%;
+}
+
+.info > h3 {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.animate-bottom {
+  position: relative;
+  animation: animatebottom 0.7s ease;
+}
+
+.grid-center {
+  display: grid;
+  place-items: center center;
+}
+
+/* ANIMATIONS */
+@keyframes animatebottom {
+  from {
+    bottom: -10%;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}

@@ -1,3 +1,4 @@
+import Home from './sections/home/home'
 import Blog from './sections/blog/blog'
 import Footer from './sections/footer/footer'
 import Clients from './sections/clients/clients.jsx'
@@ -7,6 +8,7 @@ import Services from './sections/services/services.jsx'
 import Stars from '../../components/stars/stars'
 
 const sections = [
+    <Home />,
     <Services />,
     <Projects />,
     <Blog />,
