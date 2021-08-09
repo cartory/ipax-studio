@@ -20,26 +20,13 @@ const Home = ({
                 <div
                     style={{
                         display: "flex", flexWrap: "wrap",
-                        alignItems: "center", justifyContent: 'space-evenly',
+                        alignItems: "center", justifyContent: 'center',
                     }}
                 >
-                    <IphoneX />
-                    <div>
-                        <h1 className="title shadow-text">
-                            <span style={{
-                                paddingTop: 20,
-                                paddingBottom: 20,
-                                color: 'white',
-                                textAlign: 'center',
-                                background: 'transparent',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                            }}>IPAX STUDIO</span>
-                        </h1>
-                        <ButtonBadge platform="ios" />
-                        <ButtonBadge platform="android" />
-                    </div>
+                    {/* <IphoneX /> */}
+                    <img className="logo-home" src={require('./ipax-logo.png').default} alt="#" loading="lazy" />
+                    <ButtonBadge platform="ios" />
+                    <ButtonBadge platform="android" />
                 </div>
                 {/* <a className="btn btn-default btn-footer footer-cta-a shadow-text-green" href={`mailto:${'businessEmail'}`}>Comencemos</a> */}
             </div>

@@ -49,3 +49,12 @@
     opacity: 1;
   }
 }
+
+.logo-home {
+  /* width: 50%; */
+  width: 100vw;
+  height: 50vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  object-fit: scale-down;
+}
