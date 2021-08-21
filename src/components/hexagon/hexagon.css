@@ -23,9 +23,9 @@
 .hexagon > img {
   width: 100%;
   padding-top: 10%;
-  border-radius: 50%;
   position: absolute;
   object-fit: scale-down;
+  overflow: hidden;
   z-index: 5;
 }
 
